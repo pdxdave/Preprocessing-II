@@ -234,6 +234,11 @@ img {
 .home .header .header-wrapper .company-name {
   line-height: 87px;
 }
+@media (max-width: 800px) {
+  .home .header .header-wrapper .company-name h1 {
+    padding-left: 15px;
+  }
+}
 @media (max-width: 500px) {
   .home .header .header-wrapper .company-name {
     text-align: center;
@@ -241,6 +246,7 @@ img {
   }
   .home .header .header-wrapper .company-name h1 {
     font-size: 3rem;
+    padding-left: 0;
   }
 }
 .home .intro-section {
@@ -257,13 +263,30 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .home .content-section {
+    justify-content: center;
+  }
+}
 .home .content-section .text-content {
   width: 48%;
   padding-right: 1%;
 }
+@media (max-width: 500px) {
+  .home .content-section .text-content {
+    order: 0;
+    width: 100%;
+  }
+}
 .home .content-section .img-content {
   width: 48%;
   padding-left: 1%;
+}
+@media (max-width: 500px) {
+  .home .content-section .img-content {
+    order: 1;
+    width: 100%;
+  }
 }
 .home .content-section .img-content img {
   border-radius: 10px;
@@ -332,6 +355,11 @@ img {
 .home .content-pick .destination .btn a {
   text-decoration: none;
   color: #FFFFFF;
+}
+@media (max-width: 500px) {
+  .home .content-pick .destination .btn {
+    width: 100%;
+  }
 }
 .home .content-pick .destination .btn:hover {
   background-color: #FFFFFF;
