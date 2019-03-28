@@ -156,3 +156,58 @@
     }
   }
 }// home
+
+.vacation--package {
+  h1 {
+    padding: 24px 0;
+  }
+  img {
+    border-radius: 10px;
+  }
+}// vacation package
+
+.contact-form {
+
+  label:first-child{
+    padding-top: 30px;
+  }
+
+  label {
+    display: block;
+    font-size: 2rem;
+    margin-bottom: 6px;
+  }
+  input[type="text"], textarea{
+    width: 460px;
+    font-size: 2rem;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    margin-bottom: 16px;
+
+    @media @mobile {
+      width: 100%;
+    }
+  }
+  textarea {
+    resize: none;
+  }
+  .contact-btn {
+    display: block;
+    padding: 10px;
+    font-size: 2rem;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    background:#70CAFE;
+    color: #fff;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+
+    &:hover {
+      background: darken(#70CAFE, 15%);
+    }
+
+  }
+
+}// contact form

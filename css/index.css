@@ -368,3 +368,50 @@ img {
 .home .content-pick .destination .btn:hover a {
   color: #17A2B8;
 }
+.vacation--package h1 {
+  padding: 24px 0;
+}
+.vacation--package img {
+  border-radius: 10px;
+}
+.contact-form label:first-child {
+  padding-top: 30px;
+}
+.contact-form label {
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 6px;
+}
+.contact-form input[type="text"],
+.contact-form textarea {
+  width: 460px;
+  font-size: 2rem;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  margin-bottom: 16px;
+}
+@media (max-width: 500px) {
+  .contact-form input[type="text"],
+  .contact-form textarea {
+    width: 100%;
+  }
+}
+.contact-form textarea {
+  resize: none;
+}
+.contact-form .contact-btn {
+  display: block;
+  padding: 10px;
+  font-size: 2rem;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  background: #70CAFE;
+  color: #fff;
+  margin-bottom: 30px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+.contact-form .contact-btn:hover {
+  background: #24aefd;
+}
