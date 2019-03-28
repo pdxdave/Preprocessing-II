@@ -18,9 +18,21 @@
       display: flex;
       flex-wrap: wrap;
 
+      @media @mobile {
+        flex-direction: column;
+        align-content: center;
+      }
+
       .company-name {
         line-height: 87px;
        
+        @media @mobile {
+          text-align: center;
+          h1 {
+            font-size: 3rem;
+          }
+          line-height: 70px;
+        }
       }
     }
   }

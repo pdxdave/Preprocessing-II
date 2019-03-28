@@ -177,6 +177,11 @@ img {
   list-style-type: none;
   line-height: 87px;
 }
+@media (max-width: 500px) {
+  .nav li {
+    line-height: 0;
+  }
+}
 .nav li a {
   text-decoration: none;
   font-size: 1.6rem;
@@ -210,8 +215,23 @@ img {
   display: flex;
   flex-wrap: wrap;
 }
+@media (max-width: 500px) {
+  .home .header .header-wrapper {
+    flex-direction: column;
+    align-content: center;
+  }
+}
 .home .header .header-wrapper .company-name {
   line-height: 87px;
+}
+@media (max-width: 500px) {
+  .home .header .header-wrapper .company-name {
+    text-align: center;
+    line-height: 70px;
+  }
+  .home .header .header-wrapper .company-name h1 {
+    font-size: 3rem;
+  }
 }
 .home .content-section {
   margin: 30px 0;
