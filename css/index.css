@@ -199,6 +199,16 @@ img {
   font-size: 1.6rem;
   padding: 20px;
 }
+@media (max-width: 800px) {
+  .home {
+    width: 95%;
+  }
+}
+@media (max-width: 500px) {
+  .home {
+    width: 90%;
+  }
+}
 .home .header {
   height: 87px;
   border-bottom: 2px dashed #C0C0C0;
