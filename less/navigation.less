@@ -1,1 +1,25 @@
 // Navigation Styles here
+
+.nav {
+    flex: 1;
+
+    display: flex;
+    justify-content: flex-end;
+    
+
+    li {
+        list-style-type: none;
+        line-height: 87px;
+
+        @media @mobile {
+            line-height: 0;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 1.6rem;
+            margin-right: 30px;
+            color: @shark;
+        }
+    }
+}

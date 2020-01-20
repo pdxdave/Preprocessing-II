@@ -1,1 +1,30 @@
 // Mixins in here
+
+.custom-button(@width, @padding){
+    background: @button-bg;
+    text-align: center;
+    color: @white;
+    padding: @padding;
+    width: @width;
+    border-radius: 12px;
+    font-size: 1.8rem;
+    border: 1px solid @navigation-border;
+    cursor: pointer;
+  
+    transition: all .3s ease-in-out;
+
+   a {
+       text-decoration: none;
+       color: @white;
+   }
+  
+     a {
+         text-decoration: none;
+         color: @white;
+     }
+
+  @media(max-width: 500px){
+    width: 100%;
+}
+  
+  }
